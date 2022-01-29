@@ -18,6 +18,9 @@ git pull origin master --allow-unrelated-histories 如果有设置了默认上�
 
 ## git push前先git pull
 
+## 使用git commit命令时遇到 fatal: Unable to create index.lock File exists 错误的解决办法
+在项目根目录下找到 .git 文件夹。打开该文件夹。找到文件夹里面的index.lock 文件，将其删除，即可解决问题。
+
 
 ## git 大致步骤
 
