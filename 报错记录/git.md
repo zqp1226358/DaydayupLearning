@@ -27,3 +27,7 @@ git pull origin master --allow-unrelated-histories 如果有设置了默认上�
 - git branch -M main
 - git remote add origin <url>
 - git push -u origin main  (push考虑要不要pull)
+ 
+ ## 父子仓库问题
+ git submodule add <url>
+ 
