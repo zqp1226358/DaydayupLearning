@@ -34,3 +34,10 @@ git pull origin master --allow-unrelated-histories 如果有设置了默认上�
  ## 父子仓库问题
  git submodule add <url>
  
+ ## git clone问题
+ git clone在gittee默认是matser分支
+ 如果想要clone  dev分支的代码，就使用 git clone -b 分支名 仓库url
+
+ ## 如果clone不全
+ 也有可能是带有自链接，试试这条命令git submodule update --init --recursive
+ 
