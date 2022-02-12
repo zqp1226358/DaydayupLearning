@@ -41,3 +41,12 @@ git pull origin master --allow-unrelated-histories 如果有设置了默认上�
  ## 如果clone不全
  也有可能是带有自链接，试试这条命令git submodule update --init --recursive
  
+ ## gitee 团队提交代码步骤
+ 
+ 先拉取代码
+ 
+ 然后git add .
+ git commit -m "xx"
+ git push origin dev
+ 输入gitee账号和密码  同旧qm
+ 
