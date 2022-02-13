@@ -60,3 +60,6 @@ git pull origin master --allow-unrelated-histories 如果有设置了默认上�
  git reset --hard FETCH_HEAD
  https://blog.51cto.com/halolk/1304701
  
+ ## git上传 取消上传 node_modules/ 内的文件
+ 在 gitignore 文件中添加 node_modules/
+ 
