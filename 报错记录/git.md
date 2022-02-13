@@ -50,3 +50,13 @@ git pull origin master --allow-unrelated-histories 如果有设置了默认上�
  git push origin dev
  输入gitee账号和密码  同旧qm
  
+ 
+ ## 放弃刚刚修改的版本
+ 使用git  回滚命令
+ https://blog.csdn.net/mus123/article/details/104200696
+ 
+ ## git pull 报错
+ Pull is not possible because you have unmerged files解决
+ git reset --hard FETCH_HEAD
+ https://blog.51cto.com/halolk/1304701
+ 
