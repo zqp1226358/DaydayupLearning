@@ -30,6 +30,7 @@ git pull origin master --allow-unrelated-histories 如果有设置了默认上�
 - git branch -M main
 - git remote add origin <url>
 - git push -u origin main  (push考虑要不要pull)
+- pull的话 git pull --rebase origin main   拉取readme 看清楚是main分支
  
  ## 父子仓库问题
  git submodule add <url>
